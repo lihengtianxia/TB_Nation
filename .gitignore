@@ -1,2 +1,16 @@
 
 *.xls
+
+.ipynb_checkpoints/NTB_Month-checkpoint.ipynb
+
+.ipynb_checkpoints/01-Getting and Cleaning Data-checkpoint.ipynb
+
+.ipynb_checkpoints/02- Exploratory Data analysis-checkpoint.ipynb
+
+.ipynb_checkpoints/03-SARIMA-checkpoint.ipynb
+
+.ipynb_checkpoints/04-SARIMA-GRNN-checkpoint.ipynb
+
+.ipynb_checkpoints/05-Model Evaluation-checkpoint.ipynb
+
+.ipynb_checkpoints/Seasonal_ARIMA_model_Portland_transit-checkpoint.ipynb
