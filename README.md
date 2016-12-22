@@ -6,4 +6,5 @@ Tuberculosis Mangement information system
 - SARIMA
 - Markov Chain
 - Generalized additive models
+- Generalized Regression Neural Network
 
