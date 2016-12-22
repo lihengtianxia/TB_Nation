@@ -1,2 +1,6 @@
-## 肺结核时间趋势研究
-### 
+## The trend of Tuberculosis in China, 2005-2013
+### Methods
+- SARIMA
+- Markov Chain
+- Generalized additive models
+
