@@ -4,12 +4,15 @@ os.chdir('/Users/Evan/DataScience/TB_Nation/Datasets/')
 files = os.listdir()
 
 datasets = pd.DataFrame()
+
 for i in range(1,len(files)):
     for j in os.listdir(files[i]):
         data = pd.read_excel(files[i]+'/'+ j ,skiprows=1).iloc[:1,0:5]
         data = data.rename(columns={'Unnamed: 0':'Area','发病数':'Incidence','死亡数':'Death','发病率':'Incidence_rate','死亡率':'Death_rate'})
         data['Year'],data['Month'],data['Day'] = files[i],j[4:6],'01'
         datasets = pd.concat([datasets,data])
+
+
 # datasets.index=range(0,len(datasets))
 datasets['Date'] = datasets['Year'] + datasets['Month'] + datasets['Day']
 datasets.index = pd.to_datetime(datasets['Date'])
@@ -33,5 +36,3 @@ decomposition = seasonal_decompose(datasets.Incidence_rate,freq=12)
 fig = plt.figure()
 fig = decomposition.plot()
 fig.set_size_inches(12,6)
-
-
