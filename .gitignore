@@ -18,3 +18,25 @@
 *.pdf
 
 .DS_Store
+
+*.xlsx
+
+.ipynb_checkpoints/03-SARIMA-First-checkpoint.ipynb
+
+.ipynb_checkpoints/03-SARIMA-Seasonal-checkpoint.ipynb
+
+.ipynb_checkpoints/04-SARIMA-XGBoost-Copy1-checkpoint.ipynb
+
+.ipynb_checkpoints/03-SARIMA-First-checkpoint.ipynb
+
+.ipynb_checkpoints/03-SARIMA-Seasonal-checkpoint.ipynb
+
+.ipynb_checkpoints/Untitled-checkpoint.ipynb
+
+.ipynb_checkpoints/03-SARIMA-Seasonal-checkpoint.ipynb
+
+.ipynb_checkpoints/05-Model Evaluation-XGBoost-checkpoint.ipynb
+
+.ipynb_checkpoints/03-SARIMA-First-checkpoint.ipynb
+
+*.xlsx
