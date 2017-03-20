@@ -1,7 +1,6 @@
 
 *.xls
 
-.ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
 *.pdf
@@ -11,3 +10,7 @@
 *.xlsx
 
 _pycache_
+
+Trash/
+
+Results/
