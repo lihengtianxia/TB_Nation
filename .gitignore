@@ -9,7 +9,7 @@
 
 *.xlsx
 
-_pycache_/
+*/Grey Model/_pycache_/*
 
 Trash/
 
