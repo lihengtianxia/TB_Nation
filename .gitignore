@@ -9,8 +9,9 @@
 
 *.xlsx
 
-_pycache_
+_pycache_/
 
 Trash/
 
 Results/
+*.csv
