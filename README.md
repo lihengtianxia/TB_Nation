@@ -5,6 +5,9 @@ Tuberculosis Information Mangement System
 
 ### Methods
 
--   Time Series- SARIMA
--   Machine Learning-GRNN XGBoost
--   Grey Model
+-   [SARIMA](https://github.com/evanzhu2013/TB_Nation/tree/master/Seasonal)
+-   [SARIMA + GRNN](https://github.com/evanzhu2013/TB_Nation/tree/master/Seasonal)
+-   [SARIMA + XGBoost](https://github.com/evanzhu2013/TB_Nation/tree/master/Seasonal)
+-   [only XGBoost](https://github.com/evanzhu2013/TB_Nation/tree/master/XGBoost)
+-   [GAMs](https://github.com/evanzhu2013/TB_Nation/tree/master/GAMs)
+-   [Grey Model](https://github.com/evanzhu2013/TB_Nation/tree/master/Grey%20Model)
