@@ -9,9 +9,9 @@
 
 *.xlsx
 
-*/Grey Model/_pycache_/*
-
 Trash/
 
 Results/
 *.csv
+
+*.pyc
