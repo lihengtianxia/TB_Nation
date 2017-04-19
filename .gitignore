@@ -15,3 +15,7 @@ Results/
 *.csv
 
 *.pyc
+
+XGBoost/.Rhistory
+*.history
+*.png
